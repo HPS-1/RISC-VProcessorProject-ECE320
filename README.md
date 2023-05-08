@@ -23,6 +23,8 @@ register_file.v: The register file. There're 32 registers in total.
 
 writeback_logic.v: This file represents the writeback stage logics of the processor, which is responsible for writing back to the register file.
 
+Also thanks to Kevin Brennan's contribution to this project as my teammate.
+
 /////////////////////////////////////////////////
 
 # Course Project
