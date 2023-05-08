@@ -4,24 +4,23 @@ The final product of this project, which is a RISC-V processor written in verilo
 
 Here's a bit further introduction about each file:
 
-alu.v: The arithmetic-logic unit.
+**alu.v**: The arithmetic-logic unit.
 
-branch_comp.v: The branch-comparing unit used for branching instructions.
+**branch_comp.v**: The branch-comparing unit used for branching instructions.
 
-decoder.v: The decoder that decodes the fetched instructions.
+**decoder.v**: The decoder that decodes the fetched instructions.
 
-dmemory.v: The memory used to store data. (Data memory)
+**dmemory.v**: The memory used to store data. (Data memory)
 
-imemory.v: The memory where instructions are stored and fetched. (Instruction memory)
+**imemory.v**: The memory where instructions are stored and fetched. (Instruction memory)
 
-memory_logic.v: This file represents the memory stage logics of the processor, in charge of read from / write to the data memory.
+**memory_logic.v**: This file represents the memory stage logics of the processor, in charge of read from / write to the data memory.
 
-pd.v: The top level design file of the whole processor, which wires the low-level components up and drives them using the provided clock signal.
+**pd.v**: The top level design file of the whole processor, which wires the low-level components up and drives them using the provided clock signal.
 
-register_file.v: The register file. There're 32 registers in total.
+**register_file.v**: The register file. There're 32 registers in total.
 
-
-writeback_logic.v: This file represents the writeback stage logics of the processor, which is responsible for writing back to the register file.
+**writeback_logic.v**: This file represents the writeback stage logics of the processor, which is responsible for writing back to the register file.
 
 Also thanks to Kevin Brennan's contribution to this project as my teammate.
 
