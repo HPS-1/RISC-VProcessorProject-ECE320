@@ -36,7 +36,7 @@ always @(*) begin
 
         7'b0000011: begin // Load instructions
             w_enable = 1;
-            //process read date from memory!
+            //process read data from memory!
             if (w_funct3 == 3'b000) begin
                 //byte load
                 w_data = {{24{mem_data[7]}}, mem_data[7:0]};
