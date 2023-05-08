@@ -12,3 +12,7 @@
 
 The project structure heavily borrows the AWS EC2 FPGA HDK structure, [see here](https://github.com/aws/aws-fpga).
 
+
+# Note from Peisen
+
+The final product of this project, which is a simple RISC-V processor, is located in the folder PD5. Most interested files are placed here, with self-explaining comments.
