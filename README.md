@@ -1,6 +1,6 @@
 # Note from Peisen
 
-The final product of this project, which is a simple RISC-V processor written in verilog, is located in the folder PD5. Most interested files are placed here: https://github.com/HPS-1/RISC-VProcessorProject-ECE320/tree/main/project/pd5/design/code, with self-explaining comments.
+The final product of this project, which is a RISC-V processor written in verilog, is located in the folder PD5. Most interested files are placed here: https://github.com/HPS-1/RISC-VProcessorProject-ECE320/tree/main/project/pd5/design/code, with self-explaining comments.
 
 Also a bit further introduction about each file:
 
