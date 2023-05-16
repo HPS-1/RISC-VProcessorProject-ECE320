@@ -1,5 +1,7 @@
 # Note from Peisen
 
+*This is the only project on my Github page for now because most of my projects are stored in my UWaterloo Gitlab repo or my own PC. I'll upload those to Github soon. Feel free to re-check later! :)
+
 The final product of this project, which is a 5-stage pipelined RISC-V processor written in verilog, is located in the folder PD5. Most interested files are placed here: https://github.com/HPS-1/RISC-VProcessorProject-ECE320/tree/main/project/pd5/design/code, with self-explaining comments.
 
 Here's a bit further introduction about each file:
